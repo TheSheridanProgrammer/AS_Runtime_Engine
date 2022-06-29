@@ -1,10 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Company>$(Authors)</Company>
+    <Company>Alpha Bell</Company>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Authors>$(Authors)</Authors>
+    <Description>Backend/runtime to potential Interpreters.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/TheSheridanProgrammer/AS_Runtime_Engine</RepositoryUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
