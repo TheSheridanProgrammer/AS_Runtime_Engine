@@ -15,9 +15,9 @@
                 case '+':
                     return (int.Parse(term1) + int.Parse(term2)).ToString();
                 case '-':
-                    return (int.Parse(term1) + int.Parse(term2)).ToString();
+                    return (int.Parse(term1) - int.Parse(term2)).ToString();
                 case '*':
-                    return (int.Parse(term1) + int.Parse(term2)).ToString();
+                    return (int.Parse(term1) * int.Parse(term2)).ToString();
                 case '/':
                     return (int.Parse(term1) + int.Parse(term2)).ToString();
                 default:
